@@ -1,0 +1,109 @@
+.actions {
+  display: grid;
+  grid-template-rows: 64px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "logo search log-sign";
+  color: aliceblue;
+}
+
+#logo {
+  font-size: 20pt;
+}
+
+.action-id#logo {
+  display: flex;
+  grid-area: logo;
+  align-items: center;
+}
+
+.action-id#search {
+  display: flex;
+  align-items: center;
+  grid-area: search;
+}
+
+#log-sign.action-id {
+  grid-area: log-sign;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-id {
+  padding-left: 15px;
+}
+
+.actions {
+  background-color: rgba(0, 0, 0, .1);
+  box-sizing: content-box;
+  height: 64px;
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
+}
+
+
+
+footer {
+
+  background-color: black;
+  color: aliceblue;
+}
+
+body {
+  background-image: url("https://live.staticflickr.com/65535/50115566652_99cd219e03_6k.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* .main-foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 91vh;
+} */
+
+.center-body {
+  display: flex;
+  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  padding-top: 200px;
+  color: white;
+}
+
+.start-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+#start {
+  height: 50.99px;
+  width: 177px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lower-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
